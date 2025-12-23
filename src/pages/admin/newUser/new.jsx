@@ -37,8 +37,8 @@ function New(props) {
         <input type="text" id="surname" className="Username" placeholder="Vorame" />
         <input type="text" id="name" className="Username" placeholder="Nachname" />
         <input type="text" id="email" className="Email" placeholder="Email" />
-        <input type="password" id="password" className="Password" placeholder="Password" />
-        <input type="password" id="repeatPassword" className="Password" placeholder="Password wiederholen" />
+        <input type="password" id="password" className="Password" placeholder="Passwort" />
+        <input type="password" id="repeatPassword" className="Password" placeholder="Passwort wiederholen" />
         <button className="createUserBtn" onClick={createUser}>Benutzer erstellen</button>
       </div>
 
